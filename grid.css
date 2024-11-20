@@ -1,0 +1,56 @@
+h1 {
+    color: yellow;
+    text-decoration: underline;
+    font-size: 2.3rem;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
+
+/* grid  */
+
+.parent {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    width: 300px;
+}
+
+.item1 {
+    background-color: yellow;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+}
+
+.item2 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.item3 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.item4 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.item5 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.item6 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+.item7 {
+    padding: 1rem;
+    background-color: rgba(0, 0, 255, 0.521);
+}

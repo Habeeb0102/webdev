@@ -1,0 +1,45 @@
+
+
+
+.parent{
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+input{
+    padding: 0.6rem;
+    border-radius: 5px;
+    text-align: center;
+    border-style: none;
+    border: none;
+    background-color: greenyellow;
+}
+
+.child2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.children{
+    border: 2px solid white;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.children:hover{
+    background-color: white;
+    color: black;
+}

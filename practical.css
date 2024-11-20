@@ -1,0 +1,150 @@
+body {
+    background-color: green;
+}
+
+.practical {
+    border: 1px solid;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.child1{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.child2{
+    display: flex;
+    gap: 5px;
+}
+.child3{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+button{
+    border: 2px solid yellow;
+    border-style: dashed;
+    width: 200px;
+    background-color: blue;
+    color: gold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.show{
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chil1{
+    display: flex;
+    gap: 5px;
+}
+.chil2{
+    display: flex;
+    gap: 5px;
+}
+
+.boll{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.who{
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 2px solid ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.no{
+    display: flex;
+    gap: 5px;
+}
+.go{
+    display: flex;
+    gap: 5px;
+}
+
+
+.yes{
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+}
+.WATER{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+/* form using  */
+.middle{
+    background-color: rgba(0, 0, 255, 0.623);
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.centra{
+    width: 400px;
+    background-color: aliceblue;
+    /* padding: 2rem; */
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.next{
+    padding: 2rem;
+}
+
+.child{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 20rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.post{
+    border: 2px solid yellow;
+    border-style: dashed;
+    width: 338px;
+    background-color: blue;
+    color: gold;
+    margin-top: 10px;
+    border-radius: 5px;
+}

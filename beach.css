@@ -1,0 +1,50 @@
+body{
+background-image: url(./img\ img.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+background-color: white;
+}
+
+
+.parent{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.dog{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 4rem;
+    margin-top: 10rem;
+    color: white;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 300px;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+.foot{
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+}
+
+.jik{
+    background-color: yellow;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
